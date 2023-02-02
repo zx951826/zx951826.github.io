@@ -62,13 +62,14 @@ body {
 
         li {
           a {
+            background-color: beige;
             color: rgba(27, 145, 175, 0.842);
             text-decoration: none;
             font-size: 2vw;
 
             border-radius: 20px;
             transition: all 0.2s ease;
-             padding-right: 1.5vw;
+            padding-right: 1.5vw;
             padding-bottom: 0.2vw;
             letter-spacing: 0.1vw;
 
@@ -148,6 +149,7 @@ body {
             border-radius: 50%;
             transition: all 0.1s ease-in;
             padding: 0.3rem;
+            cursor: pointer;
             &:hover {
               border: 3px solid $themeColor;
             }
@@ -164,7 +166,7 @@ body {
       align-items: center;
 
       h3 {
-        font-size: 2vw;
+        font-size: 2.8vw;
         color: rgb(20, 136, 232);
       }
     }
@@ -174,7 +176,7 @@ body {
       padding: 2rem 1rem;
       text-align: center;
       h3 {
-        font-size: 2vw;
+        font-size: 2.6vw;
         color: rgb(109, 23, 230);
       }
       p {
