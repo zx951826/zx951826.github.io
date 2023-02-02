@@ -1,0 +1,218 @@
+$themeColor: rgba(152, 57, 255, 0.5);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+body {
+  position: relative;
+
+  img.fixed-image {
+    min-height: 90vh;
+    position: fixed;
+    width: 100%;
+    z-index: -5;
+
+    bottom: 0;
+    left: 0;
+  }
+  header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    section.logo {
+      padding: 2%;
+      flex: 3 1 500px;
+      // border: 2px solid green;
+      display: flex;
+      align-items: center;
+      background-color: antiquewhite;
+      background-size: 6vw;
+      h1 {
+        font-size: 2vw;
+      }
+
+      img {
+        width: 5vw;
+        height: 5vw;
+      }
+    }
+
+    nav {
+      flex: 10 10 1vw;
+      border: 6px;
+      padding-bottom: 10px;
+
+      ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+
+        li {
+          a {
+            color: rgba(27, 145, 175, 0.842);
+            text-decoration: none;
+            font-size: 2vw;
+
+            border-radius: 20px;
+            transition: all 0.2s ease;
+            padding-bottom: 0.2vw;
+
+            &:hover {
+              color: $themeColor;
+              border-bottom: 0.9vw solid $themeColor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    section.background-img {
+      // 設定背景圖片
+      min-height: 50vw;
+
+      background-image: url("../Icons/自行車23.jpg");
+      background-size: 100vw 70vw;
+      background-position: center;
+      transition: all 0.88s ease;
+      position: relative;
+      z-index: 0; // stacking context
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      div.filter {
+        min-height: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      h3 {
+        color: white;
+        font-size: 2.5vw;
+        text-align: center;
+      }
+    }
+
+    section.info-circles {
+      background-color: white;
+      padding: 1vw;
+      h3 {
+        letter-spacing: 0.7vw;
+        color: rgb(226, 133, 226);
+        text-align: center;
+        font-size: 2.7vw;
+      }
+
+      div.circles {
+        // border: 3px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        div.circle {
+          padding: 0.5vw;
+          //border: 3px solid red;
+          flex: 0.1 0.3 19vw;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          p {
+            padding-right: 3.8vw;
+            font-size: 1.4vw;
+            color: rgb(168, 71, 232);
+          }
+          img {
+            font-size: 1.8vw;
+            width: 80%;
+            border-radius: 50%;
+            transition: all 0.1s ease-in;
+            padding: 0.3rem;
+            &:hover {
+              border: 3px solid $themeColor;
+            }
+          }
+        }
+      }
+    }
+
+    section.empty-container {
+      min-height: 50vw;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        font-size: 2vw;
+        color: rgb(20, 136, 232);
+      }
+    }
+
+    section.google-map {
+      background-color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      h3 {
+        font-size: 2vw;
+        color: rgb(109, 23, 230);
+      }
+      p {
+        font-size: 1.5rem;
+        margin: 1rem;
+      }
+
+      iframe {
+        width: 100%;
+        height: 40vh;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    section.logo {
+      img {
+        width: 30vw;
+      }
+      h3 {
+        font-size: 2vw;
+      }
+    }
+
+    section.links {
+      margin-top: 2rem;
+      a {
+        img {
+          width: 5vh;
+          margin: 0rem 1rem;
+        }
+      }
+    }
+  }
+}
