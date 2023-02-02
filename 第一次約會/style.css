@@ -1,0 +1,46 @@
+.article .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(237, 149, 218, 0.838);
+}
+
+img {
+  margin: 4vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+
+.article .wrap .item {
+  border-radius: 10%;
+  width: 40vw;
+  height: 50vw;
+  margin: 1.5vw;
+  text-align: center;
+  box-shadow: 0.2vw 1vw 1vw rgb(206, 149, 237);
+  background-color: rgba(160, 206, 252, 0.5);
+}
+
+.article h1 {
+  letter-spacing: 1.5vw;
+  background: linear-gradient(45deg, rgba(213, 5, 240, 0.5) 50%, rgba(244, 4, 208, 0.3) 50%);
+  text-align: center;
+  color: rgba(17, 101, 161, 0.842);
+  text-decoration: none;
+  font-size: 2.4vw;
+  border: 20px solid rgb(24, 123, 236);
+  padding: 2vw;
+  border-radius: 10vw;
+}
+
+p {
+  font-family: serif, sans-serif, cursive, fantasy, monospace;
+}
+
+.article p {
+  color: rgba(195, 19, 230, 0.842);
+  text-decoration: none;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}/*# sourceMappingURL=style.css.map */
