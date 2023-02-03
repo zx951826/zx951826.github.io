@@ -29,7 +29,7 @@ img {
   color: rgba(17, 101, 161, 0.842);
   text-decoration: none;
   font-size: 2.4vw;
-  border: 20px solid rgb(24, 123, 236);
+  border: 3px solid rgb(24, 123, 236);
   padding: 2vw;
   border-radius: 10vw;
 }
