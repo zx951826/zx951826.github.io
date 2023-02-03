@@ -1,0 +1,48 @@
+.article .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  margin: 4vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+
+.article .wrap .item {
+  border-radius: 10%;
+  width: 40vw;
+  height: 40vw;
+  margin: 1.5vw;
+  text-align: center;
+  box-shadow: 0.2vw 1vw 1vw rgb(168, 29, 243);
+  background-color: rgba(25, 136, 247, 0.5);
+}
+.article h1 {
+  letter-spacing: 1.5vw;
+  background: linear-gradient(
+    45deg,
+    rgba(247, 160, 20, 0.3) 50%,
+    rgba(214, 229, 6, 0.3) 50%
+  );
+
+  text-align: center;
+  color: rgba(106, 157, 239, 0.916);
+  text-decoration: none;
+  font-size: 2.4vw;
+  border: 0.5vw solid rgb(24, 123, 236, 90);
+  padding: 2vw;
+  border-radius: 10vw;
+}
+p {
+  font-family: serif, sans-serif, cursive, fantasy, monospace;
+}
+
+.article p {
+  color: rgba(230, 86, 19, 0.842);
+  text-decoration: none;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
