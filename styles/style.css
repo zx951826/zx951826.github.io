@@ -168,9 +168,17 @@ body footer {
   background-color: rgba(0, 0, 0, 0.3);
 }
 body footer section.logo img {
+  height: 16vw;
   width: 30vw;
+  border-radius: 30%;
 }
 body footer section.logo h3 {
+  padding-left: 9vw;
+  font-size: 2vw;
+}
+body footer section.logo h2 {
+  margin-top: -2.3vw;
+  padding-left: 38vw;
   font-size: 2vw;
 }
 body footer section.links {

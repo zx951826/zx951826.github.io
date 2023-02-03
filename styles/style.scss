@@ -89,6 +89,7 @@ body {
       min-height: 50vw;
 
       background-image: url("../Icons/自行車23.jpg");
+
       background-size: 100vw 70vw;
       background-position: center;
       transition: all 0.88s ease;
@@ -201,9 +202,17 @@ body {
 
     section.logo {
       img {
+        height: 16vw;
         width: 30vw;
+        border-radius: 30%;
       }
       h3 {
+        padding-left: 9vw;
+        font-size: 2vw;
+      }
+      h2 {
+        margin-top: -2.3vw;
+        padding-left: 38vw;
         font-size: 2vw;
       }
     }
