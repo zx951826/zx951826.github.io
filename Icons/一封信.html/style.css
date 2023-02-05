@@ -1,1 +1,52 @@
-/*# sourceMappingURL=style.css.map */
+.article .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  margin: 3vw;
+  width: 20vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+
+.item {
+  background-color: beige;
+  border-radius: 10%;
+  border: 1vw solid rgb(24, 123, 236);
+  width: 98%;
+  height: 50vw;
+  overflow: hidden;
+}
+
+.item h3 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.video {
+  cursor: pointer;
+  padding: 1%;
+  border-radius: 10%;
+  text-align: center;
+  box-shadow: 0.2vw 1vw 1vw rgb(149, 224, 237);
+  background-color: rgba(160, 206, 252, 0.2);
+  margin: 1vw;
+  width: 1vw;
+  height: 1vw;
+}
+
+.logocase {
+  letter-spacing: 1.5vw;
+  text-align: center;
+  color: rgba(9, 20, 37, 0.916);
+  text-decoration: none;
+  font-size: 3vw;
+  border: 0.5vw solid rgb(24, 123, 236);
+  padding: 2vw;
+  border-radius: 2vw;
+  background: url("./IMG_2465.jpg") no-repeat;
+  background-size: 10vw 8vw;
+  background-color: rgb(42, 118, 239);
+}/*# sourceMappingURL=style.css.map */
