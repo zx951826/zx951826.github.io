@@ -1,7 +1,9 @@
 .article .wrap {
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgb(125, 167, 234);
 }
 
 img {
@@ -11,16 +13,13 @@ img {
   border-radius: 50%;
 }
 
-.item {
-  background-color: beige;
-  border-radius: 10%;
-  border: 1vw solid rgb(24, 123, 236);
-  width: 98%;
-  height: 50vw;
-  overflow: hidden;
-}
-
 .item h3 {
+  background-color: aqua;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: auto;
   font-size: 3vw;
   text-align: center;
 }
@@ -38,6 +37,7 @@ img {
 }
 
 .logocase {
+  margin: 1vw;
   letter-spacing: 1.5vw;
   text-align: center;
   color: rgba(9, 20, 37, 0.916);
