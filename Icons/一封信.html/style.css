@@ -3,7 +3,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(125, 167, 234);
+  background-image: url(./IMG_2463.jpg);
+  background-size: 20vw 20vw;
+  background-color: aqua;
 }
 
 img {
@@ -14,14 +16,17 @@ img {
 }
 
 .item h3 {
-  background-color: aqua;
-  border-radius: 20%;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: left;
+  color: rgb(228, 11, 69);
+  padding: 1vw 6vw 1vw;
+  letter-spacing: 3vw;
   overflow: auto;
-  font-size: 3vw;
-  text-align: center;
+  border-radius: 10%;
+  line-height: 5vw;
+  letter-spacing: 1vw;
+  font-size: 3.5vw;
+  z-index: -5;
 }
 
 .video {

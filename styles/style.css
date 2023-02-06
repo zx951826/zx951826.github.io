@@ -63,7 +63,7 @@ body header nav ul li a {
   transition: all 0.2s ease;
   padding-right: 1.5vw;
   padding-bottom: 0.2vw;
-  letter-spacing: 0.1vw;
+  letter-spacing: 0vw;
 }
 body header nav ul li a:hover {
   color: rgba(152, 57, 255, 0.5);
