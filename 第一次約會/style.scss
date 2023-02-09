@@ -24,10 +24,7 @@ img {
 div.item {
   img {
     transition: all 0.1s ease-in;
-    padding: 0.3rem;
-    transition: 0.5s;
-    &:hover img {
-      transform: scale(1.2);
+  
     }
   }
 }
