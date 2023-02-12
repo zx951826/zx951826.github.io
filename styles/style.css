@@ -53,6 +53,7 @@ body header nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
+  padding-right: 2vw;
 }
 body header nav ul li a {
   background-color: beige;
@@ -61,9 +62,8 @@ body header nav ul li a {
   font-size: 1.7vw;
   border-radius: 20px;
   transition: all 0.2s ease;
-  padding-right: 1.5vw;
+  padding-right: 1.2vw;
   padding-bottom: 0.2vw;
-  letter-spacing: 0vw;
 }
 body header nav ul li a:hover {
   color: rgba(152, 57, 255, 0.5);
