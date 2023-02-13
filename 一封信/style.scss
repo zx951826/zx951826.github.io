@@ -3,8 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url(./IMG_2463.jpg);
-  background-color: antiquewhite;
+
+  background-color: rgb(112, 224, 249);
   background-size: 40vw, 30vw;
 }
 
@@ -18,7 +18,7 @@ img {
 .item h3 {
   display: flex;
   text-align: left;
-  color: rgb(250, 53, 3);
+  color: rgb(32, 3, 250);
   padding: 1vw 6vw 1vw;
   letter-spacing: 3vw;
   overflow: auto;
@@ -56,4 +56,13 @@ img {
   background-size: 10vw 8vw;
   background-color: rgb(42, 118, 239);
   border-radius: 2vw;
+}
+.logoimg {
+  position: relative;
+  left: 86%;
+  width: 10vw;
+  height: 9vw;
+  margin-top: -10vw;
+
+  z-index: 6;
 }
