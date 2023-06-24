@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-Hants">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>大雄與麻糬的回憶錄</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./Icons/封面.JPG" />
+  </head>
+
+  <body>
+    <img class="fixed-image" src="./Icons/背景照.jpg" alt="fixed-image" />
+
+    <header>
+      <section class="logo">
+        <img src="./images/網站Logo.svg" alt="日本旅遊網Logo" />
+        <h1 class="logo-h1">2020-2023年回憶錄</h1>
+      </section>
+      <nav>
+        <ul>
+          <li>
+            <a href="./第一次約會/交往前回憶.HTML"
+              ><i class="fa-solid fa-plane"></i> 交往前回憶</a
+            >
+          </li>
+          <li>
+            <a href="./吃吃喝喝/吃吃喝喝.html"
+              ><i class="fa-solid fa-right-to-bracket"></i> 吃吃喝喝</a
+            >
+          </li>
+          <li>
+            <a href="./景點css/景點/景點.html"
+              ><i class="fa-solid fa-book"></i> 風景照片</a
+            >
+          </li>
+          <li>
+            <a href="./IG相片/限時動態回憶錄.html"
+              ><i class="fa-regular fa-address-book"></i> IG限時動態</a
+            >
+          </li>
+          <li>
+            <a href="./112照片/112.html"
+              ><i class="fa-regular fa-address-book"></i> 2023回憶照片</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="background-img">
+        <div class="filter"></div>
+        <h3>交往回憶錄。<br />紀載我們三年大大小的回憶</h3>
+      </section>
+
+      <section class="info-circles">
+        <h3>一起完成的事物</h3>
+        <div class="circles">
+          <div class="circle">
+            <a href="./第一次約會/交往前回憶.HTML"
+              ><img src="./回憶錄/坐纜車.jpg" alt="一起去坐貓纜"
+            /></a>
+            <p>一起走過的點點滴滴</p>
+          </div>
+          <div class="circle">
+            <a href="./自行車/自行車.html">
+              <img src="./回憶錄/石壩水庫.jpg" alt="一起騎腳踏車" />
+            </a>
+            <p>一起騎腳踏車</p>
+          </div>
+          <div class="circle">
+            <a href="./製作蛋糕/製作蛋糕.html"
+              ><img src="./回憶錄/動手做.jpg" alt=""
+            /></a>
+            <p>一起去做甜點</p>
+          </div>
+          <div class="circle">
+            <a href="./登山/登山.html">
+              <img src="./回憶錄/登山2.jpg" alt="一起去登山" />
+            </a>
+            <p>一起登山</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="empty-container">
+        <h3>我們要一起走到老，一起加油，一起去過各地的旅行。</h3>
+      </section>
+
+      <section class="google-map">
+        <h3>請選擇，我們的度蜜月行程。</h3>
+        <p></p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12957.488775352871!2d139.7899951341456!3d35.71706393297344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec2047f5333%3A0x7c84fd3881c74067!2z5pel5pys44CSMTExLTAwMzIg5p2x5Lqs6YO95Y-w5p2x5Y2A5re66I2J!5e0!3m2!1szh-TW!2stw!4v1675138340454!5m2!1szh-TW!2stw"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <section class="logo">
+        <img src="./images/網站Logo.svg" alt="logo" />
+
+        <a href="./一封信/一封信.html"><img src="./email.jpg" alt="email" /></a>
+
+        <h3>屬於我們的社群</h3>
+        <h2>給麻糬的一封信</h2>
+      </section>
+
+      <section class="links">
+        <a href="#"><img src="./Icons/facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="./Icons/instagram.svg" alt="instagram" /></a>
+        <a href="#"><img src="./Icons/twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="./Icons/youtube.svg" alt="youtube" /></a>
+      </section>
+    </footer>
+    <script>
+      setInterval(() => {
+        let topBackground = document.querySelector("section.background-img");
+        if (
+          topBackground.style.backgroundImage ==
+          'url("../Icons/新竹關渡橋.jpg")'
+        ) {
+          topBackground.style.backgroundImage = 'url("../Icons/自行車23.jpg")';
+        } else if (
+          topBackground.style.backgroundImage == 'url("../Icons/背景照.jpg")'
+        ) {
+          topBackground.style.backgroundImage == 'url("../Icons/背景照.jpg")';
+        } else {
+          topBackground.style.backgroundImage =
+            'url("../Icons/新竹關渡橋.jpg")';
+        }
+      }, 3500);
+    </script>
+  </body>
+</html>
